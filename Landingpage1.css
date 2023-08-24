@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@500&family=Poppins:wght@100&family=Ubuntu:ital,wght@0,300;1,300;1,400;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'Borel', cursive;
+}
+.sign{
+height:40px;
+background-size: cover;
+
+}
+.sign button{
+	margin-top:30px;
+	float: right;
+	width:60px;
+	height:40px;
+	margin-left: 35px;
+}
+section{
+	position:relative;
+	width:100%;
+	min-height: 100vh;
+	display:flex;
+	flex-direction:column ;
+	justify-content:flex-start ;
+
+	background-size:cover ;
+	background-position:center;
+	background-image:url(image1.jpg);
+}
+header{
+	position:relative;
+	width:100%;
+	top=0;align-items: center;
+	padding:30px 100px;
+	display:flex;
+	align-items: center;
+	justify-content:space-between ;
+}
+
+header .carto{
+	color:#000;
+	font-size:30px;
+	position:relative;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:850;
+	letter-spacing:1px;
+
+
+}
+
+header .nav a{
+	color:#000;
+	font-size:20px;
+	text-decoration: none;
+	padding: 2px 15px;
+	letter-spacing:1px ;
+	font-weight:500 ;
+	border-radius:20px ;
+	transition:0.3s;
+	transition-property: background;
+
+}
+header .nav a:not(:last-child){
+	margin-right: 50px;
+}
+header .nav a:hover{
+	background: #fff;
+}
+ .content .image1 img{
+	float:right;
+	width:29%;
+	height:25%;
+	transform: skew(10deg);
+}
+.nav button{
+	margin-left: 20px;
+	background-color: grey;
+	color:white;
+	border:none;
+	text-align: center;
+	border-radius:2px ;
+	width:100px;
+	height:50px;
+}
+.nav button:hover{
+	background-color:skyblue;
+}
+
+ .content .image2 img{
+	
+	width:20%;
+	height:20%;
+}
+ .content .image3 img{
+ 	margin-right:5px;
+	float:right;
+	width:25.5%;
+	height:20%;
+	transform: skew(10deg);
+
+}
+ .content .image4 img{
+	float:bottom;
+	width:20%;
+	height:20%;
+}
+.content{
+	margin:60px 100px;
+	<!--max-width: 650px;-->
+
+	
+	
+}
+.content .info h2{
+	color:#226A80;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;
+	line-height:60px ;
+	margin-bottom: 30px;
+}
+.content .info h2 span{
+	color:#fff;
+	font-size:25px ;
+	font-weight: 200;
+	margin-left: 60px;
+}
+.content .info p{
+	color:darkpink;
+	font-weight: 100;
+	font-size: 25px;
+	margin-bottom: 40px;
+	max-width:650px;
+
+}
+.content .watch{
+	color:#fff;
+	font-size:20px;
+	text-decoration: none;
+	padding: 10px 20px;
+	letter-spacing:2px ;
+	font-weight:700 ;
+	border-radius:5px ;
+	background: #226A80;
+	text-transform: uppercase;
+	transition:0.3s;
+	transition-property: background;
+
+}
+.content .watch:hover{
+	background: #0C4F60;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.icons a{
+	position:relative;
+	color:#222;
+	font-size: 25px;
+	transition: 0.3s;
+	transition-property: transform;
+}
+.icons a:not(:last-child){
+	margin-right: 60px;
+}
+.icons a:hover{
+	transform: scale(1.8);
+
+}
